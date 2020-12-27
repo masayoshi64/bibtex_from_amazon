@@ -1,0 +1,16 @@
+{
+    "name": "bibtex from Amazon",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "get book data in bibtex format from Amazon",
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.amazon.co.jp/*"
+            ],
+            "js": [
+                "content.js"
+            ]
+        }
+    ]
+}
